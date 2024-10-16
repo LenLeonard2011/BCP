@@ -9,6 +9,10 @@
     border-radius: 2vh;
 }
 
+h1 {
+    text-align: center;
+}
+
 h1, p {
     padding-left: 2vh;
     padding-right: 2vh;
