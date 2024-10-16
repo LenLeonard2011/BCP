@@ -1,0 +1,90 @@
+.navbar {
+    position: fixed;
+    top: 2vh;
+    left: 2vh;
+    right: 2vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 4vh;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: darkslategrey;
+}
+
+h1, p {
+    padding-left: 2vh;
+    padding-right: 2vh;
+    
+}
+
+p {
+    text-align: justify;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+}
+
+.navbar-button {
+    flex: 0.15; /* This ensures all buttons take equal space */
+    margin: 0 5px; /* Optional: Adds some space between buttons */
+    padding: 2%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: white;
+}
+
+img {
+    width: 100%; 
+    display: block;
+}
+
+@media (orientation: landscape) {
+    h1 {
+        padding-top: 15%;
+        font-size: 12vh;
+    }
+
+    h2 {
+        font-size: 10vh;
+    }
+
+    p {
+        font-size: 8vh;
+    }
+}
+
+@media (orientation: portrait) {
+    h1 {
+        padding-top: 10%;
+        font-size: 4.5vh;
+    }
+
+    h2 {
+        font-size: 3.2vh;
+    }
+
+    p {
+        font-size: 2vh;
+    }
+
+    .navbar-button {
+        flex: 0.15; 
+        margin: 0 5px; 
+        background-color: transparent;
+        padding: 0;
+        border: none;
+        color: white;
+    }
+
+    .navbar{
+        border-radius: 2vh;
+    }
+}
