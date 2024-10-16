@@ -11,6 +11,8 @@
 
 h1 {
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: darkslategrey;
 }
 
 h1, p {
