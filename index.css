@@ -1,0 +1,52 @@
+.navbar {
+    position: fixed;
+    top: 2vh;
+    left: 2vh;
+    right: 2vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 2vh;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-button {
+    flex: 0.15; /* This ensures all buttons take equal space */
+    margin: 0 5px; /* Optional: Adds some space between buttons */
+    padding: 2%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: white;
+}
+
+img {
+    width: 100%; 
+    display: block;
+}
+
+@media (orientation: portrait) {
+    h1 {
+        font-size: 8vh;
+    }
+
+    h2 {
+        font-size: 6vh;
+    }
+
+    p {
+        font-size: 5vh;
+    }
+
+    .navbar-button {
+        flex: 0.15; 
+        margin: 0 5px; 
+        background-color: transparent;
+        padding: 0;
+        border: none;
+        color: white;
+    }
+}
