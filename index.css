@@ -9,8 +9,24 @@
     border-radius: 2vh;
 }
 
+h1, p {
+    padding-left: 2vh;
+    padding-right: 2vh;
+    
+}
+
+p {
+    text-align: justify;
+}
+
+
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+}
+.container{
+    margin-top: 5vh;
 }
 
 .navbar-button {
@@ -28,17 +44,33 @@ img {
     display: block;
 }
 
-@media (orientation: portrait) {
+@media (orientation: landscape) {
     h1 {
-        font-size: 8vh;
+        padding-top: 15%;
+        font-size: 12vh;
     }
 
     h2 {
-        font-size: 6vh;
+        font-size: 10vh;
     }
 
     p {
-        font-size: 5vh;
+        font-size: 8vh;
+    }
+}
+
+@media (orientation: portrait) {
+    h1 {
+        padding-top: 10%;
+        font-size: 4.5vh;
+    }
+
+    h2 {
+        font-size: 3.2vh;
+    }
+
+    p {
+        font-size: 2vh;
     }
 
     .navbar-button {
